@@ -1,0 +1,6 @@
+เริมให้ใช้ git pull และชื่อ origin branch
+สร้าง barnch ใหม่ git checkout -b ชื่อbranch
+ใช้ git status เพื่อดูการเปลี่ยนแปลง
+ใช้ git add . ในการเพิ่มงาน รอ commit 
+ใช้ commit -m "และใส่คอมเมนท์เกี่ยวกับโค้ดที่เราแก้"
+ใช้ git push -u origin ชื่อbarnch
