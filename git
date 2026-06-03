@@ -1,4 +1,4 @@
-เริมให้ใช้ git pull และชื่อ origin branch
+เริมให้ใช้ git pull และชื่อ origin branch หรือแค่ git pull ธรรมดา
 สร้าง barnch ใหม่ git checkout -b ชื่อbranch
 ใช้ git status เพื่อดูการเปลี่ยนแปลง
 ใช้ git add . ในการเพิ่มงาน รอ commit 

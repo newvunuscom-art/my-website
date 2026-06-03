@@ -45,7 +45,7 @@ section {
     justify-content: space-between;
     align-items: center;
     color:#ffff;
-    padding: 20px;
+    padding: 5px;
 
 }
 
@@ -268,8 +268,29 @@ section {
 }
 /* ////////////////////////////////////////////////login.html กูไม่ได้ใช้ AI////////////////////////////////////*/
 
-.container {
-    padding: 16px;
+.container-form{
+
+}
+
+.text-form h2{
+    font-size: 36px;
+    color: black;
+    text-align: center;
+}
+
+form{
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+
+    max-width: 450px;
+    margin: 50px auto;
+}
+
+
+
+label{
+    font-size: 18px;
 }
 
 input[type=text],
@@ -295,6 +316,7 @@ button {
 button:hover{
     opacity: 0.8;
 }
+
 
 
 
