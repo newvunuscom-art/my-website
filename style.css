@@ -266,57 +266,38 @@ section {
 .card p, h3 {
     margin-bottom: 20px;
 }
-/* login.html กูไม่ได้ใช้ AI*/
+/* ////////////////////////////////////////////////login.html กูไม่ได้ใช้ AI////////////////////////////////////*/
 
-.login-page{
-    min-height:100vh;
-
-    display:flex;
-    justify-content:center;
-    align-items:center;
+.container {
+    padding: 16px;
 }
 
-/* .login-form{ */
-    /* align-items: center;
-}
-
-.login-header {
-    display:flex;
-    justify-content: center;
-}
-
-.login-form {
-    display: flex;
-    flex-direction: column;
-} */
-
-/* input {
-    padding: 0 0px;
-    max-width:100%;
-    height: 30px;
-    border-radius: 5px;
-} */
-.form-group input{
-    width:100%;
-    padding:15px;
-}
-
-label {
-
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
 }
 
 button {
-    
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
 }
 
-.login-card {
-    width:100%;
-    max-width:400px;
-
-    padding:40px;
-
-    border-radius:20px;
+button:hover{
+    opacity: 0.8;
 }
+
+
+
 /*  */
 
 
